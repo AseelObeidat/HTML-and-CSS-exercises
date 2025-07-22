@@ -1,0 +1,40 @@
+body {
+  font-size: 20px;
+}
+
+
+ul ul, ol ol, ul ol, ol ul {
+  color: blue;
+}
+
+
+ul ul ul, ol ol ol {
+  list-style-type: none;
+}
+
+
+li:first-child {
+  font-weight: bold;
+}
+
+
+li a {
+  color: red;
+}
+
+
+
+body > div:nth-of-type(1) p a {
+  color: green;
+}
+
+
+body > div:nth-of-type(2) p a {
+  color: green;
+}
+
+
+body > div:nth-of-type(3) p a {
+  background-color: yellow;
+  color: black;
+}

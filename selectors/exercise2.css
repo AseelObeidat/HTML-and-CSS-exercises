@@ -1,0 +1,41 @@
+body {
+  background-color: #f0f8ff;
+  font-family: Arial, sans-serif;
+}
+
+div {
+  width: 75%;
+  min-width: 500px;
+  border: 1px solid #333333;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.45);
+}
+
+/* Red dashed border + red text + red shadow */
+#alert {
+  border: 1px dashed red;
+  color: red;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px rgba(255, 0, 0, 0.45);
+}
+
+
+.hl1 {
+  font-weight: bold;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  background-color: #e98819;
+}
+
+
+.hl2 {
+  font-weight: bold;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  background-color: #fdfd96;
+}
+
+

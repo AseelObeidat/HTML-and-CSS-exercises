@@ -1,0 +1,35 @@
+
+.square {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 5px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 1em; /* default */
+  color: black;
+  border: 1px solid #333;
+  font-weight: bold;
+}
+
+
+.even {
+  background-color: #0033cc;
+}
+.odd {
+  background-color: #ff3333;
+}
+
+/* Sizes */
+.small {
+  font-size: 0.7em;
+}
+.large {
+  font-size: 1.3em;
+}
+
+/* Special square */
+#lucky7 {
+  color: white;
+}

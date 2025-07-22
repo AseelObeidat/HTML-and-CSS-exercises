@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exercise #3</title>
+
+   <style>
+    input[type="number"]::-webkit-inner-spin-button, 
+    input[type="number"]::-webkit-outer-spin-button {
+      opacity: 1;
+      transform: rotate(180deg); /* Flip the arrows */
+    }
+  </style>
+</head>
+<body>
+
+  <form action="/subscribe" method="post">
+
+   
+    <fieldset>
+      <legend>Personal details</legend>
+      <table>
+        <tr>
+          <td><label for="firstname">First name</label></td>
+          <td><input type="text" id="firstname" name="firstname"></td>
+        </tr>
+        <tr>
+          <td><label for="lastname">Last name</label></td>
+          <td><input type="text" id="lastname" name="lastname"></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email address</label></td>
+          <td><input type="email" id="email" name="email"></td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+
+    
+    <fieldset>
+      <legend>Magazines</legend>
+      <table>
+        <tr>
+          <td>
+            <input type="checkbox" id="mag1" name="magazines" value="StavangerAftenblad">
+            <label for="mag1">Stavanger Aftenblad</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" id="mag2" name="magazines" value="TekniskUkeblad">
+            <label for="mag2">Teknisk Ukeblad</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" id="mag3" name="magazines" value="SeogHor">
+            <label for="mag3">Se Og Hør</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" id="mag4" name="magazines" value="Familien">
+            <label for="mag4">Familien</label>
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+
+    
+    <fieldset>
+      <legend>Subscription</legend>
+      <table>
+        <tr>
+          <td><label for="period">Period</label></td>
+          <td>
+            <input type="number" id="period" name="period" min="6" max="24" step="6" value="6"> months
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+
+    <br>
+    <input type="submit" value="Subscribe">
+
+  </form>
+
+</body>
+</html>
