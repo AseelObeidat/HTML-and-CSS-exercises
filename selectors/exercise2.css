@@ -14,7 +14,7 @@ div {
   box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.45);
 }
 
-/* Red dashed border + red text + red shadow */
+
 #alert {
   border: 1px dashed red;
   color: red;
